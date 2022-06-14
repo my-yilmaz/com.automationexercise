@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="0.587">
+    <testcase classname="TC01 Register User" name="TC01 Register User (kayit sayfasi)" time="0.173">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
+            <![CDATA[Given kullanici tarayiciyi baslatir.........................................undefined
+Then kullanici anasayfaya gider.............................................skipped
+And anasayfanin gorunur oldugunu test eder..................................skipped
+Then kullanici signup-login butonuna tiklar.................................skipped
+And kullanici,New User Signup! in gorunur oldugunu test eder................skipped
+Given kullanici olarak isim ve maili girer..................................skipped
+Then signup butonuna tiklar.................................................skipped
+And acilan sayfada ENTER ACCOUNT INFORMATION yazisinn gorunur oldugunu test eder.skipped
+Then kullanici ayrintilari (birinci bolum) doldurur.........................skipped
+Then kullanici Sign up for our newsletter! checkbox ini secer...............skipped
+Then kullanici Receive special offers from our partners! checkbox ini secer.skipped
+Then kullanici ayrintilari (ikinci bolum) doldurur..........................skipped
+Then kullanici Create Account butonuna tiklar...............................skipped
+And kullanici hesabin olustugunu dogrular...................................skipped
+]]>
+        </failure>
+    </testcase>
+</testsuite>
