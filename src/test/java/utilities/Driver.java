@@ -30,19 +30,6 @@ public class Driver {
             driver = null;
         }
     }
-    public static void sleep(int timeOut) {
-        try {
-            Thread.sleep(timeOut);
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }
-    //    Parameter1 : WebElement
-    //    Parameter2:  int
-    //    Driver.selectByIndex(dropdown element, 1)
-    public static void selectByIndex(WebElement element, int index) {
-        Select objSelect = new Select(element);
-        objSelect.selectByIndex(index);
-    }
+
 
 }
