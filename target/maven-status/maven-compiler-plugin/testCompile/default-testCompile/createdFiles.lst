@@ -1,10 +1,12 @@
-stepDefinitions\SignupUserStepDefs.class
-stepDefinitions\Hooks.class
+pages\Login2Page.class
 pages\LoginPage.class
-stepDefinitions\RegisterUserStepDefs.class
-utilities\ConfigReader.class
 utilities\ReusableMethods$2.class
 utilities\ReusableMethods$1.class
 runners\TestRunner.class
 utilities\Driver.class
+stepDefinitions\SignupUserStepDefs.class
+stepDefinitions\Hooks.class
+stepDefinitions\PositiveLoginStepDefs.class
+stepDefinitions\RegisterUserStepDefs.class
+utilities\ConfigReader.class
 utilities\ReusableMethods.class

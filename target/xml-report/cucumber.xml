@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="36.375">
-    <testcase classname="TC01 Register User" name="TC01 Register User (kayit sayfasi)" time="35.928">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="44.8">
+    <testcase classname="TC01 Register User" name="TC01 Register User (kayit sayfasi)" time="28.409">
         <system-out>
             <![CDATA[Given kullanici tarayiciyi baslatir.........................................passed
 Then kullanici anasayfaya gider.............................................passed
@@ -16,6 +16,19 @@ Then kullanici Receive special offers from our partners! checkbox ini secer.pass
 Then kullanici ayrintilari (ikinci bolum) doldurur..........................passed
 Then kullanici Create Account butonuna tiklar...............................passed
 And kullanici hesabin olustugunu dogrular...................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Feature: TC02 Positive Login Test" name="Dogru e-posta ve sifre ile kullanici oturum acma" time="16.076">
+        <system-out>
+            <![CDATA[Given kullanici tarayiciyi baslatir.........................................passed
+Then kullanici anasayfaya gider.............................................passed
+Then anasayfanin gorunur oldugunu test eder.................................passed
+Then kullanici signup-login butonuna tiklar.................................passed
+Then kullanicinin Login to your account yazisinin gorunur oldugunu test eder.passed
+Then kullanici dogru email ve sifreyi girer.................................passed
+Then kullanici login butonuna tiklar........................................passed
+Then kullanici oturum actigini test eder(Logged in as username).............passed
 ]]>
         </system-out>
     </testcase>
