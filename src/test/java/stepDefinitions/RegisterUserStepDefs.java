@@ -22,11 +22,13 @@ public class RegisterUserStepDefs {
 
     @Then("anasayfanin gorunur oldugunu test eder")
     public void anasayfanin_gorunur_oldugunu_test_eder() {
+
         Assert.assertTrue(loginPage.logoElementi.isDisplayed());
     }
 
     @Then("kullanici signup-login butonuna tiklar")
     public void kullanici_signup_login_butonuna_tiklar() {
+
         loginPage.loginSignUP.click();
     }
 

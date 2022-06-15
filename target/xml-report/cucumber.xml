@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="44.8">
-    <testcase classname="TC01 Register User" name="TC01 Register User (kayit sayfasi)" time="28.409">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="51.118">
+    <testcase classname="TC01 Register User" name="TC01 Register User (kayit sayfasi)" time="33.53">
         <system-out>
             <![CDATA[Given kullanici tarayiciyi baslatir.........................................passed
 Then kullanici anasayfaya gider.............................................passed
@@ -19,7 +19,7 @@ And kullanici hesabin olustugunu dogrular...................................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="Feature: TC02 Positive Login Test" name="Dogru e-posta ve sifre ile kullanici oturum acma" time="16.076">
+    <testcase classname="Feature: TC02 Positive Login Test" name="Dogru e-posta ve sifre ile kullanici oturum acma" time="17.009">
         <system-out>
             <![CDATA[Given kullanici tarayiciyi baslatir.........................................passed
 Then kullanici anasayfaya gider.............................................passed
