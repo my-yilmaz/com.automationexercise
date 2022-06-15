@@ -9,6 +9,7 @@ import org.openqa.selenium.interactions.Actions;
 import pages.LoginPage;
 import utilities.ConfigReader;
 import utilities.Driver;
+import utilities.ReusableMethods;
 
 public class SignupUserStepDefs {
     LoginPage loginPage = new LoginPage();
@@ -35,9 +36,9 @@ public class SignupUserStepDefs {
     public void kullanici_ayrintilari_birinci_bolum_doldurur() {
         loginPage.genderButon.click();
         loginPage.sifreKutusu.sendKeys(ConfigReader.getProperty("password"));
-        Driver.selectByIndex(loginPage.days, 7);
-        Driver.selectByIndex(loginPage.months, 11);
-        Driver.selectByIndex(loginPage.years, 40);
+        ReusableMethods.selectByIndex(loginPage.days, 7);
+        ReusableMethods.selectByIndex(loginPage.months, 11);
+        ReusableMethods.selectByIndex(loginPage.years, 40);
 
     }
 
@@ -59,7 +60,7 @@ public class SignupUserStepDefs {
                 .sendKeys(faker.company().name() + Keys.TAB)
                 .sendKeys(faker.address().fullAddress() + Keys.TAB)
                 .sendKeys(faker.address().secondaryAddress() + Keys.TAB).perform();
-        Driver.selectByIndex(loginPage.country, 2);
+        ReusableMethods.selectByIndex(loginPage.country, 2);
         actions.click(loginPage.stateKutusu).sendKeys(faker.address().state() + Keys.TAB)
                 .sendKeys(faker.address().city() + Keys.TAB)
                 .sendKeys(faker.address().zipCode() + Keys.TAB)
