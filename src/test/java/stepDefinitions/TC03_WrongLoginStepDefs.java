@@ -7,7 +7,7 @@ import pages.LoginPage;
 import utilities.ConfigReader;
 import utilities.Driver;
 
-public class WrongLoginStepDefs {
+public class TC03_WrongLoginStepDefs {
      LoginPage loginPage=new LoginPage();
     Login2Page login2Page = new Login2Page();
     @Given("Navigate to url {string}")
