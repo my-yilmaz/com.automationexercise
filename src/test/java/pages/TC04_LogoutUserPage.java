@@ -5,9 +5,9 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import utilities.Driver;
 
-public class LogoutUserPage {
+public class TC04_LogoutUserPage {
 
-    public LogoutUserPage(){
+    public TC04_LogoutUserPage(){
         PageFactory.initElements(Driver.getDriver(),this);
     }
 
