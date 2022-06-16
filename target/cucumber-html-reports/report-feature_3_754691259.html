@@ -41,7 +41,7 @@ $(document).ready(function() {
 
 
 
-<title>Cucumber Reports (no 1) - Tag: @login</title>
+<title>Cucumber Reports (no 1) - Feature: TC04 Correct login and correct logout</title>
 
 </head>
 <body>
@@ -89,7 +89,7 @@ $(document).ready(function() {
 
 <div id="report-lead" class="container-fluid">
   <div class="col-md-10 col-md-offset-1">
-    <h2>Tag Report</h2>
+    <h2>Feature Report</h2>
   </div>
 </div>
 
@@ -108,7 +108,7 @@ $(document).ready(function() {
     <th colspan="2">Features</th>
   </tr>
   <tr>
-    <th>Tag</th>
+    <th>Feature</th>
     <th class="passed">Passed</th>
     <th class="failed">Failed</th>
     <th class="skipped">Skipped</th>
@@ -128,19 +128,19 @@ $(document).ready(function() {
 
         <tbody>
         <tr>
-          <td class="tagname">@login</td>
-          <td      class="passed"    >8</td>
+          <td class="tagname">TC04 Correct login and correct logout</td>
+          <td      class="passed"    >9</td>
           <td >0</td>
           <td >0</td>
           <td >0</td>
           <td >0</td>
-          <td class="total">8</td>
+          <td class="total">9</td>
 
           <td  class="passed"    >1</td>
           <td >0</td>
           <td class="total">1</td>
 
-          <td class="duration" data-value="16045174500">16.045</td>
+          <td class="duration" data-value="31505721400">31.505</td>
           <td class="passed">Passed</td>
         </tr>
         </tbody>
@@ -167,30 +167,42 @@ $(document).ready(function() {
 <div class="container-fluid" id="report">
   <div class="row">
     <div class="col-md-10 col-md-offset-1">
-      <div class="elements">
+      <div class="feature">
 
+<div class="tags indention">
+    <b>Tags:</b>
+       <a href="report-tag_2015815113.html">@logout</a>
+</div>
+
+
+<div class="brief passed">
+  <span class="keyword indention">Feature</span>
+  <span class="name">TC04 Correct login and correct logout</span>
+
+
+</div>
+
+        <div class="description indention"></div>
+
+        <div class="elements inner-level">
 
 <div class="element">
-    <div class="indention">
-      <b>Feature:</b>
-      <a href="report-feature_1_3224349615.html">Feature: TC02 Positive Login Test</a>
-    </div>
 
 
 <div class="tags indention">
     <b>Tags:</b>
-       <a href="report-tag_4082898728.html">@login</a>
+       <a href="report-tag_2015815113.html">@logout</a>
 </div>
 
 
-  <span class="lead-duration duration">16.045</span>
+  <span class="lead-duration duration">31.505</span>
 
 
   <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-1">
 
 <div class="brief passed">
   <span class="keyword indention">Scenario</span>
-  <span class="name">Dogru e-posta ve sifre ile kullanici oturum acma</span>
+  <span class="name">TC04 Must be able to enter and exit correctly</span>
 
 
      <i class="chevron fa fa-fw"></i>
@@ -224,36 +236,9 @@ $(document).ready(function() {
 
 <div class="brief step-name-Given passed">
   <span class="keyword indention">Given</span>
-  <span class="name">kullanici tarayiciyi baslatir</span>
+  <span class="name">Navigate to url <span class="argument">&quot;automationexerciseUrl&quot;</span></span>
 
-  <span class="lead-duration duration">3.376</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-Then passed">
-  <span class="keyword indention">Then</span>
-  <span class="name">kullanici anasayfaya gider</span>
-
-  <span class="lead-duration duration">6.341</span>
+  <span class="lead-duration duration">6.368</span>
 
 </div>
 
@@ -276,38 +261,11 @@ $(document).ready(function() {
       <div class="step">
 
 
-<div class="brief step-name-Then passed">
-  <span class="keyword indention">Then</span>
-  <span class="name">anasayfanin gorunur oldugunu test eder</span>
+<div class="brief step-name-* passed">
+  <span class="keyword indention">*</span>
+  <span class="name">Verify that home page is visible successfully</span>
 
-  <span class="lead-duration duration">0.040</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-Then passed">
-  <span class="keyword indention">Then</span>
-  <span class="name">kullanici signup-login butonuna tiklar</span>
-
-  <span class="lead-duration duration">1.667</span>
+  <span class="lead-duration duration">0.061</span>
 
 </div>
 
@@ -330,38 +288,11 @@ $(document).ready(function() {
       <div class="step">
 
 
-<div class="brief step-name-Then passed">
-  <span class="keyword indention">Then</span>
-  <span class="name">kullanicinin Login to your account yazisinin gorunur oldugunu test eder</span>
+<div class="brief step-name-* passed">
+  <span class="keyword indention">*</span>
+  <span class="name">Click on Signup Login button</span>
 
-  <span class="lead-duration duration">0.040</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-Then passed">
-  <span class="keyword indention">Then</span>
-  <span class="name">kullanici dogru email ve sifreyi girer</span>
-
-  <span class="lead-duration duration">0.419</span>
+  <span class="lead-duration duration">1.161</span>
 
 </div>
 
@@ -384,11 +315,11 @@ $(document).ready(function() {
       <div class="step">
 
 
-<div class="brief step-name-Then passed">
-  <span class="keyword indention">Then</span>
-  <span class="name">kullanici login butonuna tiklar</span>
+<div class="brief step-name-* passed">
+  <span class="keyword indention">*</span>
+  <span class="name">Verify Login to your account is visible</span>
 
-  <span class="lead-duration duration">4.115</span>
+  <span class="lead-duration duration">0.037</span>
 
 </div>
 
@@ -411,9 +342,117 @@ $(document).ready(function() {
       <div class="step">
 
 
-<div class="brief step-name-Then passed">
-  <span class="keyword indention">Then</span>
-  <span class="name">kullanici oturum actigini test eder(Logged in as username)</span>
+<div class="brief step-name-* passed">
+  <span class="keyword indention">*</span>
+  <span class="name">Enter <span class="argument">&quot;e-mail&quot;</span> and <span class="argument">&quot;password&quot;</span></span>
+
+  <span class="lead-duration duration">0.824</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-* passed">
+  <span class="keyword indention">*</span>
+  <span class="name">Click login button</span>
+
+  <span class="lead-duration duration">20.479</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-* passed">
+  <span class="keyword indention">*</span>
+  <span class="name">Verify that Logged in as username is visible</span>
+
+  <span class="lead-duration duration">0.043</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-* passed">
+  <span class="keyword indention">*</span>
+  <span class="name">Click Logout button</span>
+
+  <span class="lead-duration duration">2.485</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-* passed">
+  <span class="keyword indention">*</span>
+  <span class="name">Verify that user is navigated to login page</span>
 
   <span class="lead-duration duration">0.042</span>
 
@@ -460,7 +499,7 @@ $(document).ready(function() {
             <span class="keyword indention">After</span>
               <span class="location name">stepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)</span>
 
-  <span class="lead-duration duration">4.741</span>
+  <span class="lead-duration duration">0.333</span>
 
           </div>
 
@@ -477,6 +516,7 @@ $(document).ready(function() {
   </div>
 </div>
 
+        </div>
 
       </div>
     </div>

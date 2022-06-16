@@ -1,3 +1,4 @@
+stepDefinitions\LogoutUserStepDefs.class
 pages\Login2Page.class
 pages\LoginPage.class
 utilities\ReusableMethods$2.class
@@ -9,4 +10,6 @@ stepDefinitions\Hooks.class
 stepDefinitions\PositiveLoginStepDefs.class
 stepDefinitions\RegisterUserStepDefs.class
 utilities\ConfigReader.class
+pages\LogoutUserPage.class
+stepDefinitions\WrongLoginStepDefs.class
 utilities\ReusableMethods.class

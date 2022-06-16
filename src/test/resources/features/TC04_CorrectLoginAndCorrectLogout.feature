@@ -8,5 +8,5 @@ Feature: TC04 Correct login and correct logout
     * Enter "e-mail" and "password"
     * Click login button
     * Verify that Logged in as username is visible
-    *  Click Logout button
+    * Click Logout button
     * Verify that user is navigated to login page
