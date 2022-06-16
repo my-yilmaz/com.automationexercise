@@ -12,7 +12,7 @@ import org.junit.runner.RunWith;
         },
         features = "src/test/resources/features",
         glue = "stepDefinitions",
-        tags = "@register",
+        tags = "@logout",
         dryRun = false
 )
 public class TestRunner {
