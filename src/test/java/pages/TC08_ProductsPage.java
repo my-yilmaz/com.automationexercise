@@ -10,10 +10,10 @@ public class TC08_ProductsPage {
     public TC08_ProductsPage(){
         PageFactory.initElements(Driver.getDriver(),this);}
 
-    @FindBy(xpath = "//*[text()='Products']")
+    @FindBy(xpath = "//*[text()=' Products']")
     public WebElement productsButton;
 
-    @FindBy(xpath = "//*[text()='All Products']")
+    @FindBy(xpath = "//i[@class='material-icons card_travel']")
     public WebElement allProducts;
 
     @FindBy(xpath = "//div=[@class='features_items']")
