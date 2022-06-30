@@ -2,15 +2,20 @@ package stepDefinitions;
 
 import io.cucumber.java.en.Given;
 import org.junit.Assert;
+import org.openqa.selenium.JavascriptExecutor;
 import pages.TC07_TestCasesPage;
+import utilities.Driver;
 
 public class TC07_TestCasesStepDefs {
 
     TC07_TestCasesPage testCasesPage=new TC07_TestCasesPage();
 
+
     @Given("Click on Test Cases button")
     public void click_on_button() {
-        testCasesPage.testCasesButton.click();
+        JavascriptExecutor jse = (JavascriptExecutor) Driver.getDriver();
+        jse.executeScript("arguments[0].click();", testCasesPage.testCasesButton);
+
 
     }
 

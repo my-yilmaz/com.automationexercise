@@ -11,7 +11,7 @@ public class TC07_TestCasesPage {
         PageFactory.initElements(Driver.getDriver(),this);
     }
 
-    @FindBy(xpath = "//i=[@class='fa fa-list']")
+    @FindBy(xpath = "//i[@class='fa fa-list']")
     public WebElement testCasesButton;
 
     @FindBy(xpath = "//h2[@class='title text-center']")

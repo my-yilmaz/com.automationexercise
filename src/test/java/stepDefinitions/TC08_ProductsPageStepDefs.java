@@ -2,7 +2,6 @@ package stepDefinitions;
 
 import io.cucumber.java.en.Given;
 import org.junit.Assert;
-import pages.TC07_TestCasesPage;
 import pages.TC08_ProductsPage;
 
 public class TC08_ProductsPageStepDefs {
